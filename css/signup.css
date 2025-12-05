@@ -297,6 +297,7 @@ form input {
 
 /*992px*/
 
+
 @media (max-width: 992px) {
 
     .navbar-main-container {
@@ -324,6 +325,7 @@ form input {
         text-align: left;
     }
 }
+
 
 /*  768px*/
 
