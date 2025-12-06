@@ -162,7 +162,6 @@ nav {
 
 
 
-/* FOOTER */
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -259,5 +258,6 @@ nav {
     .footer-section-3,
     .footer-section-4 {
         width: 100%;
-    }
+    
+}
 }
