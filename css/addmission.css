@@ -137,3 +137,31 @@ input, select, textarea {
     border: 1px solid #bbb;
     font-size: 15px;
 }
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+ select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+ textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
