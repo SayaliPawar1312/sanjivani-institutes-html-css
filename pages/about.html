@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>College Website</title>
+ <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <div class="navbar-main-container">
+        <div class="logo-container">
+ 
+            <img src="../images/logo-image.png" alt="college website" height="50px" class="main-logo">
+
+            <b class="project-name">Sanjivani institutes</b>
+        </div>
+        <nav>
+            <div class="nav-links-container">
+                <a href="./index.html" class="menu-item">Home</a>
+                <a href="./pages/department.html" class="menu-item">Department</a>
+                <a href="./pages/contact.html" class="menu-item">Contact</a>
+                <a href="./pages/addmission.html" class="menu-item">Addmission</a>
+            </div>
+            <div class="auth-links-container">
+                <a href="./pages/login.html" class="menu-item">Login</a>
+                <a href="./pages/signup.html" class="menu-item">Signup</a>
+            </div>
+        </nav>
+    </div>
+    <div>
+<head>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    header.about-header {
+      background: linear-gradient(to right, #4a90e2, #50e3c2);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header.about-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header.about-header p {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #4a90e2;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    #vision-mission {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    #vision-mission .card {
+      background: white;
+      flex: 1 1 300px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    #vision-mission .card:hover {
+      transform: translateY(-5px);
+    }
+
+    #vision-mission h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    #history ul {
+      list-style: none;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    #history ul::before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #4a90e2;
+      border-radius: 2px;
+    }
+
+    #history li {
+      position: relative;
+      padding: 20px 20px;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+    }
+
+    #history li::before {
+      content: '';
+      position: absolute;
+      left: -18px;
+      top: 25px;
+      width: 12px;
+      height: 12px;
+      background: #4a90e2;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    #principal-message .principal-card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    #principal-message img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      border: 1px solid #4a90e2;
+      background: white;
+      padding: 2px;
+    }
+
+    #principal-message h3 {
+      margin-top: 15px;
+      color: #4a90e2;
+      font-weight: 600;
+     
+    }
+
+    #achievements .achievement-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    #achievements .achievement-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    #achievements .achievement-card:hover {
+      transform: translateY(-5px);
+      background: #f0f8ff;
+    }
+
+    #achievements h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    @media(max-width: 768px){
+      #vision-mission {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header class="about-header">
+    <h1>About Sanjivani College of Engineering</h1>
+    <p>Shaping Engineers of Tomorrow with Excellence and Innovation</p>
+  </header>
+
+  <section id="vision-mission">
+    <div class="card">
+      <h2>Our Vision</h2>
+      <p>To become a leading engineering institution nurturing innovation, creativity, and leadership among students.</p>
+    </div>
+    <div class="card">
+      <h2>Our Mission</h2>
+      <ul>
+        <li>Provide quality technical education with ethical values.</li>
+        <li>Encourage research, innovation, and entrepreneurship.</li>
+        <li>Develop globally competent engineers contributing to society.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="history">
+    <h2>Our History</h2>
+    <ul>
+      <li><strong>1983:</strong> Sanjivani College of Engineering was established with a commitment to quality education.</li>
+      <li><strong>1995:</strong> Introduced postgraduate programs in engineering.</li>
+      <li><strong>2005:</strong> Recognized for excellence in technical research and student achievements.</li>
+      <li><strong>2020:</strong> Accredited by national bodies and ranked among top engineering colleges.</li>
+    </ul>
+  </section>
+
+  <section id="principal-message">
+    <h2>Message from Our Principal</h2>
+    <div class="principal-card">
+       <img src="../images/logo-image.png" height="80px" width="80px" alt="clg-logo">
+      <p>“At Sanjivani College of Engineering, we aim to create an environment where students grow academically, socially, and ethically. We focus on innovation, practical learning, and preparing future leaders who can make a positive impact in the world.”</p>
+      <h3>- Dr. [Principal Name]</h3>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Our Achievements</h2>
+    <div class="achievement-grid">
+      <div class="achievement-card">
+        <h3>Top Ranked Engineering College</h3>
+        <p>Consistently ranked among the top engineering institutions in Maharashtra.</p>
+      </div>
+      <div class="achievement-card">
+        <h3>100% Placement</h3>
+        <p>Students placed in leading tech companies across India and abroad.</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Innovative Research</h3>
+        <p>Promoting cutting-edge research in engineering and technology.</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Community Engagement</h3>
+        <p>Active participation in social initiatives and technical workshops.</p>
+      </div>
+    </div>
+  </section>
+
+    </div>
+
+    
+</body>
+</html>
