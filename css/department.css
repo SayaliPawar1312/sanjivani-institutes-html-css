@@ -132,3 +132,18 @@ nav {
     max-width: 700px;
     margin: 0 auto;
 }
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--color-surface);
+    padding: 3rem;
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+}
+.branch-card {
+    background: var(--color-surface);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+}
