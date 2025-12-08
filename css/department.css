@@ -395,3 +395,31 @@ nav {
         height: 80px;
     }
 }
+@media (max-width: 480px) {
+
+    .project-name {
+        font-size: 18px;
+    }
+
+    .main-logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .nav-links-container,
+    .auth-links-container {
+        gap: 10px;
+        margin-left: auto;
+        display: flex;
+    }
+
+    .icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+}
