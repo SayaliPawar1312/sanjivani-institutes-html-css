@@ -322,3 +322,33 @@ nav {
         gap: 12px;
         width: 100%;
     }
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .project-name {
+        font-size: 20px;
+    }
+
+    .nav-links-container,
+    .auth-links-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+        text-align: left;
+    }
+}
+@media (max-width: 768px) {
+
+    .navbar-main-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
