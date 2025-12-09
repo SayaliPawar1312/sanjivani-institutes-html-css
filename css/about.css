@@ -7,13 +7,27 @@
 
     body {
       line-height: 1.6;
-      background-color: #f4f7f9;
+       background-color:#6c88d6;
       color: #333;
     }
+    .navbar-main-container {
+    width: 100%;
+    background:#192546;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;    
+    top: 0;              
+    left: 0;             
+    width: 100%;
+    z-index: 999;  
+}
 
     header.about-header {
-      background: linear-gradient(to right, #4a90e2, #50e3c2);
-      color: white;
+      background-color:#faf8d7;
+      color:black;
       text-align: center;
       padding: 60px 20px;
     }
