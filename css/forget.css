@@ -7,8 +7,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #192546
 }
-
-
 .navbar-main-container {
     width: 100%;
     background:#192546;
@@ -22,47 +20,36 @@ body {
     width: 100%;
     z-index: 999;  
 }
-
-
 .logo-container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
 .main-logo {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
-
 .project-name {
     color: white;
     font-size: 20px;
 }
-
-
 nav {
     display: flex;
     align-items: center;
     gap: 400px;
 }
-
-
 .nav-links-container {
     display: flex;
     gap: 10px;
     cursor: pointer;
 }
-
-
 .auth-links-container {
     display: flex;
     gap: 10px;
     cursor: pointer;
 }
-
 .menu-item {
     color: white;
     text-decoration: none;
@@ -73,10 +60,6 @@ nav {
 .menu-item:hover {
     color: orange;
 }
-
-
-
-
 .div2{
   background:#6c88d6;
   display: flex;
@@ -177,22 +160,6 @@ nav {
     text-decoration: none;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
     .navbar-main-container {
         flex-direction: column;
