@@ -450,4 +450,16 @@ form input {
         width: 60px;
         height: 60px;
     }
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section-1,
+    .footer-section-2,
+    .footer-section-3,
+    .footer-section-4 {
+        width: 100%;
+    
+}
 }
