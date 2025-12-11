@@ -1,181 +1,28 @@
-*{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Poppins', sans-serif;
-    }
+@media (max-width: 768px) {
 
-    body {
-      line-height: 1.6;
-      background-color:#d9e8f3;
-      color: #333;
-    }
-
-    header.about-header {
-      background: linear-gradient(to right, #4a90e2, #50e3c2);
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-
-    header.about-header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-
-    header.about-header p {
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    h2 {
-      font-size: 2rem;
-      color: #4a90e2;
-      margin-bottom: 30px;
-      text-align: center;
-    }
-
-    #vision-mission {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    #vision-mission .card {
-      background: white;
-      flex: 1 1 300px;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-
-    #vision-mission .card:hover {
-      transform: translateY(-5px);
-    }
-
-    #vision-mission h2 {
-      color: #333;
-      margin-bottom: 15px;
-    }
-
-    #history ul {
-      list-style: none;
-      position: relative;
-      padding-left: 20px;
-    }
-
-    #history ul:: {
-      content: '';
-      position: absolute;
-      left: 10px;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: #4a90e2;
-      border-radius: 2px;
-    }
-
-    #history li {
-      position: relative;
-      padding: 20px 20px;
-      margin-bottom: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.05); 
-    }
-
-    #history li:: {
-      
-      position: absolute;
-      left: -18px;
-      top: 25px;
-      width: 12px;
-      height: 12px;
-      background: #4a90e2;
-      border-radius: 50%;
-      border: 3px solid white;
-    }
-    #principal-message .principal-card {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 700px;
-      margin: auto;
-    }
-
-    #principal-message img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      object-fit: cover;
-      border: 1px solid #4a90e2;
-      background: white;
-      padding: 2px;
-    }
-
-    #principal-message h3 {
-      margin-top: 15px;
-      color: #4a90e2;
-      font-weight: 600;
-     
-    }
-
-    #achievements .achievement-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    #achievements .achievement-card {
-      background: white;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s, background 0.3s;
-    }
-
-    #achievements .achievement-card:hover {
-      transform: translateY(-5px);
-      background: #f0f8ff;
-    }
-
-    #achievements h3 {
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    
-
-
-@media (max-width: 1024px) {
-  section {
-    padding: 40px 20px;
+  /* ===== HEADER ===== */
+  header.about-header {
+    padding: 40px 15px;
   }
 
   header.about-header h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 
   header.about-header p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
-}
 
+  /* ===== SECTIONS ===== */
+  section {
+    padding: 40px 15px;
+  }
 
-@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
 
-  /* Navbar */
+  /* ===== NAVBAR ===== */
   .navbar-main-container {
     flex-direction: column;
     align-items: center;
@@ -185,7 +32,7 @@
 
   nav {
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     width: 100%;
     align-items: center;
   }
@@ -200,18 +47,64 @@
   .menu-item {
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
   }
 
-  /* Sections */
+  /* ===== VISION & MISSION ===== */
   #vision-mission {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Footer */
+  #vision-mission .card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* ===== HISTORY TIMELINE ===== */
+  #history ul {
+    padding-left: 20px;
+  }
+
+  #history ul::before {
+    left: 10px;
+  }
+
+  #history li {
+    padding: 15px;
+  }
+
+  #history li::before {
+    left: -3px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+  }
+
+  /* ===== PRINCIPAL CARD ===== */
+  #principal-message .principal-card {
+    padding: 20px;
+  }
+
+  #principal-message img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* ===== ACHIEVEMENTS GRID ===== */
+  #achievements .achievement-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  #achievements .achievement-card {
+    padding: 20px;
+  }
+
+  /* ===== FOOTER ===== */
   .footer-container {
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     text-align: center;
   }
@@ -221,49 +114,10 @@
   .footer-section-3,
   .footer-section-4 {
     width: 100%;
-    align-items: center;
-  }
-}
-
-/* Mobile devices */
-@media (max-width: 600px) {
-
-  header.about-header {
-    padding: 40px 10px;
-  }
-
-  header.about-header h1 {
-    font-size: 1.5rem;
-  }
-
-  header.about-header p {
-    font-size: 1rem;
-  }
-
-  section {
-    padding: 30px 10px;
-  }
-
-  #vision-mission .card {
-    padding: 20px;
-  }
-
-  #principal-message img {
-    width: 80px;
-    height: 80px;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  #achievements .achievement-grid {
-    grid-template-columns: 1fr;
   }
 
   .social-icon {
     height: 32px;
     width: 32px;
-    padding: 6px;
   }
 }
